@@ -31,3 +31,20 @@ print(x)
 print(y)
 print(z)
 # exit(0)
+
+
+
+# Global Variables
+
+x='awesome'
+
+def myfunc():
+    x='fantastic'
+    global k
+    k='global variable'
+    print('Python is ' + x)
+
+myfunc()
+
+print('Python is ' + x)
+print('Value of k is ' + k)
