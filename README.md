@@ -1,29 +1,56 @@
 # Python Learning Workspace
 
-This repository contains Python scripts and resources for learning and practicing Python programming.
+This repository documents my Python learning journey with daily exercises, projects, and practice scripts.
+
+## Overview
+
+This is a comprehensive collection of Python exercises organized by learning days (Day 3 through Day 54+), covering various concepts and programming challenges.
 
 ## Directory Structure
 
-- `1/` - Contains example Python scripts and a sample text file:
-  - `hello.py` - A simple script, likely for basic output or testing.
-  - `one.py` - Another example script for practice or demonstration.
-  - `test.txt` - A sample text file for file I/O exercises.
+- `day-3/` to `day-54/` - Daily Python exercises and projects
+- `1/`, `2/` - Initial practice scripts
+- `data/` - Data files for exercises and projects
+
+## Progress
+
+Currently working through **54+ days** of Python programming exercises, covering topics such as:
+
+- Basic syntax and data types
+- Control flow and loops
+- Functions and modules
+- Object-oriented programming
+- File I/O operations
+- Data structures
+- API integration
+- Web scraping
+- And more...
 
 ## How to Run
 
-Navigate to the `1/` directory and run the Python scripts using:
+Navigate to any day's directory and run the Python scripts:
 
 ```bash
-python hello.py
-python one.py
+cd day-XX
+python main.py
+```
+
+Or run directly from the workspace root:
+
+```bash
+python day-XX/main.py
 ```
 
 ## Purpose
 
-This workspace is intended for:
+This workspace tracks my Python learning progress through:
 
-- Practicing Python basics
-- Experimenting with scripts
-- Learning file operations
+- Daily coding exercises
+- Hands-on projects
+- Real-world problem solving
+- Building a strong foundation in Python programming
 
-Feel free to add more scripts and resources as you continue learning!
+---
+
+**Repository:** [learn-python](https://github.com/MottuqeBrid/learn-python)  
+**Last Updated:** December 2025
