@@ -1,0 +1,6 @@
+# Text to Speech using Windows SAPI
+
+import win32com.client
+
+speaker = win32com.client.Dispatch("SAPI.SpVoice")
+speaker.Speak("Hello, it works!")
